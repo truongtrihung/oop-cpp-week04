@@ -32,7 +32,10 @@ bool laSoHoanHao (long long n){
         }
     }
 
+    // Số hoàn hảo là các số mà ước của nó cộng lại bằng chính nó ví dụ như số 6
+    // 6 có ước là 3, 2, 1 thì 1 + 2 + 3 = 6 => số hoàn hảo  
+
     if (sum == n) return true;
     else return false;
-    
+
 }
